@@ -21,6 +21,12 @@ app.get('/', (req, res) => {
     });
 });
 
+app.get('/about.html', (req, res) => {
+	res.render('about', {
+
+	});
+});
+
 // set static folder
 // this sets all the routing for static files, yay for basic pages!
 app.use(express.static(path.join(__dirname, "public")));
