@@ -1,4 +1,6 @@
-To run locally
+To run locally.
+
+Set IEX_CLOUD_TOKEN variable in a .env file. Then run the following command:
 
 ```
 npm run dev
